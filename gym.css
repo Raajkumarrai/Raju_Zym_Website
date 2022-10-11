@@ -1,0 +1,278 @@
+ /* css for defult */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.header{
+    position:sticky;
+    top: 0;
+    height: 10vh;
+    background-color: rgb(46, 50, 163);
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    padding-top: 3px;
+}
+.left img {
+    width: 80px;
+    filter: invert(100%);
+}
+.left div {
+    font-size: 26px;
+}
+.mid {
+    width: 39%;
+    margin: auto;
+}
+.right {
+    box-shadow: 0 0 5px solid blueviolet;
+    position: absolute;
+    right: 34px;
+    top: 30px;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+    margin: 35px;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    transition: 0.5s;
+}
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: rgba(94, 173, 32);
+
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(9, 7, 108);
+}
+
+
+/* home section */
+
+#home{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+#home img{
+    height: 100%;
+    width: 100%;
+}
+.homediv{
+    height: 49.8%;
+}
+.homediv img{
+    border: 1px solid white;
+}
+#gymslogon{
+    position: absolute;
+    top: 15vh;
+    left: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    box-shadow: 0px 0 5px 10px rgba(226, 20, 185, 0.586);
+    background-color: rgba(89, 89, 163, 0.7);
+    border-bottom: 2px solid palegreen;
+    border-radius: 10px;
+}
+#slogan{
+    color: red;
+    position: absolute;
+    top: 60vh;
+    left: 68%;
+    width: 20vh;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+#fitness{
+    position: absolute;
+    top: 60vh;
+    left: 25%;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: rgb(0, 255, 38);
+    box-shadow: 0 0 5px 0 black;
+    background-color: rgba(157, 95, 134, 0.9);
+    border-radius: 7px;
+}
+
+/* blank div css */
+#blank{
+    height: 1.5vh;
+    width: 100%;
+    background-color: rgb(75, 44, 44);
+}
+
+/* Pricing table */
+
+#pricing{
+    height: 100vh;
+    width: 100%;
+}#pricing{
+    background-image: url(pricing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#plans{
+    padding: 10px 40%;
+    padding-top: 25px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+#plans h1{
+    color: red;
+    text-decoration: underline;
+    padding: 20px 25px;
+}
+#plans p{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+#prizingtable{
+    display: inline-flex;
+}
+#prizingtable h3{
+    margin: 20px 5px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.plan{
+    height: 48vh;
+    width: 30vh;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 0px 2px 3px 4px rgb(43, 98, 46);
+    border-radius: 5px;
+    background-color: white;
+}
+.money{
+    border: none;
+    margin:  25px;
+    padding: 5px 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    letter-spacing: 1px;
+}
+.money h4{
+    background-color: blue;
+}
+.money p{
+    background-color: blue;
+    padding: 5px;
+}
+.detail p{
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 17.5px;
+    color: black;
+    background-color: white;
+}
+.price{
+    width: 80%;
+    margin-top: 20px;
+    padding: 9px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: rgb(87, 29, 221);
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 7px;
+}
+.price:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+/* contact section .......... */
+#contact{
+    height: 90vh;
+    width: 100%;
+    background-image: url(pic.png);
+    padding-top: 7%;
+}
+.container {
+    background-color: rgba(57, 41, 31, 0.8);
+    border: 2px solid rgba(78, 0, 151, 0.551);
+    margin: auto;
+    padding: 55px;
+    width: 33%;
+    border-radius: 10px 28px;
+    border-style: dashed; 
+}
+
+.form-group input {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    width: 70%;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 21px auto;
+    font-size: 15px;
+    padding: 9px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+
+.container h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+
+.container button {
+    display: block;
+    width: 22%;
+    padding: 10px 15px;
+    margin:10px auto;
+}
+
+/* footer section */
+
+#footerr{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
